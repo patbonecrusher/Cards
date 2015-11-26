@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # 2
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   # 3
   s.license = { :type => "MIT", :file => "LICENSE" }
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/patbonecrusher/Cards"
 
   # 6 - Replace this URL with your own Git URL from "Quick Setup"
-  s.source       = { :git => "git@github.com:patbonecrusher/Cards.git", :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:patbonecrusher/Cards.git", :tag => "0.0.2" }
   s.exclude_files = "Classes/Exclude"
 
   # 7
