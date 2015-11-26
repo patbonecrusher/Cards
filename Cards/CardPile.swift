@@ -7,10 +7,9 @@
 //
 
 import Foundation
-import Utils
 
 //-------------------------------------------------------------------------------------------------
-public class CardPile: Utils.Container, CustomStringConvertible {
+public class CardPile: Container, CustomStringConvertible {
   
   public var cards = [Card]()
   

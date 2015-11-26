@@ -31,5 +31,5 @@ Pod::Spec.new do |s|
   s.source_files = "Cards/**/*.{swift}"
 
   # 9
-  s.resources = "Cards/**/*.{png,jpeg,jpg,storyboard,xib}"
+  #s.resources = "Cards/**/*.{png,jpeg,jpg,storyboard,xib}"
 end

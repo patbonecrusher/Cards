@@ -15,6 +15,8 @@
 		AF5EBA081C079EFA00AD4221 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5EBA031C079EFA00AD4221 /* Deck.swift */; };
 		AF5EBA091C079EFA00AD4221 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5EBA041C079EFA00AD4221 /* Rank.swift */; };
 		AF5EBA0A1C079EFA00AD4221 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5EBA051C079EFA00AD4221 /* Suit.swift */; };
+		AF5EBA0D1C07A32E00AD4221 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5EBA0B1C07A32E00AD4221 /* ArrayExtension.swift */; };
+		AF5EBA0E1C07A32E00AD4221 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5EBA0C1C07A32E00AD4221 /* Container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		AF5EBA031C079EFA00AD4221 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		AF5EBA041C079EFA00AD4221 /* Rank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		AF5EBA051C079EFA00AD4221 /* Suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		AF5EBA0B1C07A32E00AD4221 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		AF5EBA0C1C07A32E00AD4221 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		AF5EB9E91C079E0A00AD4221 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				AF5EBA0B1C07A32E00AD4221 /* ArrayExtension.swift */,
+				AF5EBA0C1C07A32E00AD4221 /* Container.swift */,
 				AF5EBA011C079EFA00AD4221 /* Card.swift */,
 				AF5EBA021C079EFA00AD4221 /* CardPile.swift */,
 				AF5EBA031C079EFA00AD4221 /* Deck.swift */,
@@ -212,6 +218,8 @@
 				AF5EBA081C079EFA00AD4221 /* Deck.swift in Sources */,
 				AF5EBA0A1C079EFA00AD4221 /* Suit.swift in Sources */,
 				AF5EBA091C079EFA00AD4221 /* Rank.swift in Sources */,
+				AF5EBA0D1C07A32E00AD4221 /* ArrayExtension.swift in Sources */,
+				AF5EBA0E1C07A32E00AD4221 /* Container.swift in Sources */,
 				AF5EBA061C079EFA00AD4221 /* Card.swift in Sources */,
 				AF5EBA071C079EFA00AD4221 /* CardPile.swift in Sources */,
 			);
